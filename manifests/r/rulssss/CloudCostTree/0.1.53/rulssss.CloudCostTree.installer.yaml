@@ -1,0 +1,14 @@
+PackageIdentifier: rulssss.CloudCostTree
+PackageVersion: 0.1.53
+InstallerType: portable
+Commands:
+  - cloudcosttree
+Installers:
+  - Architecture: x64
+    InstallerUrl: https://github.com/rulssss/cloudcosttree/releases/download/v0.1.53/cloudcosttree-windows-amd64.exe
+    InstallerSha256: 955900763788FFD1757782CD27DE39FD62C017687DE1F337D1A27485E811B636
+  - Architecture: arm64
+    InstallerUrl: https://github.com/rulssss/cloudcosttree/releases/download/v0.1.53/cloudcosttree-windows-arm64.exe
+    InstallerSha256: C1860F3A0CEB0DC456DCBAEC0449239BC06E18F8BE56DE9AE2AECEC1C03B3D11
+ManifestType: installer
+ManifestVersion: 1.6.0
